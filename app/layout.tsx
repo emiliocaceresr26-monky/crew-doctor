@@ -8,8 +8,8 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "sw
 const grotesk = Space_Grotesk({ variable: "--font-grotesk", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Doctor's Crew · Astronaut health check",
-  applicationName: "Doctor's Crew",
+  title: "Crew Doctor · Astronaut health check",
+  applicationName: "Crew Doctor",
   description: "A 4-minute self-check that tells an astronaut whether they are fit for the day. Prototype with simulated data; not a medical device.",
 };
 export const viewport: Viewport = { themeColor: "#070B16", width: "device-width", initialScale: 1 };

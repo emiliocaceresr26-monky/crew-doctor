@@ -1,6 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Crew Doctor
 
-## Getting Started
+Prototipo de monitoreo de salud para astronautas (Next.js). Datos simulados; no es un dispositivo médico.
+
+## Abrir la app (sin terminal)
+
+1. Instala [Node.js](https://nodejs.org) (versión LTS) una sola vez.
+2. Copia `.env.example` a `.env.local` y pon tu `GEMINI_API_KEY` si quieres la voz de Gemini para BUZZ.
+3. Haz doble clic en **`Abrir Crew Doctor.cmd`**. La primera vez instala dependencias y prepara la app (unos minutos); después abre en segundos en `http://localhost:3333`.
+4. Para cerrar la app, cierra la ventana minimizada «Crew Doctor - servidor».
+
+Para tener un acceso directo con el logo en el escritorio, ejecuta una vez `scripts/crear-acceso-directo.ps1` (clic derecho → «Ejecutar con PowerShell»).
+
+## Desarrollo
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 

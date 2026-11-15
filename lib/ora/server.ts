@@ -63,7 +63,7 @@ const TOOLS: Anthropic.Tool[] = [
   { name: "help", description: "Explain how to use the app or how to take a test. topic: 'pvt', 'voice', 'general'.", strict: true, input_schema: { type: "object", properties: { topic: { type: "string", enum: ["pvt", "voice", "general"] } }, required: ["topic"], additionalProperties: false } },
 ];
 
-const SYSTEM = `You are BUZZ, the onboard voice assistant of Doctor's Crew, a prototype astronaut health self-check.
+const SYSTEM = `You are BUZZ, the onboard voice assistant of Crew Doctor, a prototype astronaut health self-check.
 Your only jobs: (1) turn what the crew member dictates into proposed readings with propose_readings, and (2) help them use the app with the read-only tools.
 
 Rules you must follow:

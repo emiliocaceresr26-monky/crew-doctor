@@ -90,9 +90,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <header className="no-print flex flex-col gap-3">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <Link href={HOME[view]} className="flex items-center gap-2.5 rounded-full" aria-label="Doctor's Crew">
+            <Link href={HOME[view]} className="flex items-center gap-2.5 rounded-full" aria-label="Crew Doctor">
               <Image src="/logo.png" alt="" width={40} height={40} priority className="size-10 rounded-full shadow-[0_0_18px_rgba(96,165,250,0.35)]" />
-              <span className="display text-xl font-bold tracking-tight">Doctor&apos;s <span className="text-accent">Crew</span></span>
+              <span className="display text-xl font-bold tracking-tight">Crew <span className="text-accent">Doctor</span></span>
             </Link>
             <span className="hidden text-[13px] text-muted sm:inline">{t("appTagline")}</span>
           </div>
